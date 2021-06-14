@@ -18,6 +18,7 @@ for(i of buttons){
         else if(x=='=')
         {
             screen.value=eval(val);
+            val=screen.value;
         }
         else
         {
